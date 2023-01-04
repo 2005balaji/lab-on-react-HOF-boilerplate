@@ -18,7 +18,6 @@ export default class HigherOrderComponent extends Component {
     const mapRows = data.map((item) => (
       <React.Fragment key={item.id}>
         <li className="list-elements">
-          {/* Passing unique value to 'key' prop, eases the process for virtual DOM to remove the specific element and update HTML tree  */}
           <span>Id: {item.id}</span>
           <span>Name : {item.name}</span>
           <span>User Type: {item.user_type}</span>
@@ -37,7 +36,6 @@ export default class HigherOrderComponent extends Component {
       .map((item) => (
         <React.Fragment key={item.id}>
           <li className="list-elements">
-            {/* Passing unique value to 'key' prop, eases the process for virtual DOM to remove the specific element and update HTML tree  */}
             <span>Id: {item.id}</span>
             <span>Name : {item.name}</span>
             <span>User Type: {item.user_type}</span>
@@ -56,7 +54,6 @@ export default class HigherOrderComponent extends Component {
       .map((item) => (
         <React.Fragment key={item.id}>
           <li className="list-elements">
-            {/* Passing unique value to 'key' prop, eases the process for virtual DOM to remove the specific element and update HTML tree  */}
             <span>Id: {item.id}</span>
             <span>Name : {item.name}</span>
             <span>User Type: {item.user_type}</span>
@@ -75,7 +72,6 @@ export default class HigherOrderComponent extends Component {
       .map((item) => (
         <React.Fragment key={item.id}>
           <li className="list-elements">
-            {/* Passing unique value to 'key' prop, eases the process for virtual DOM to remove the specific element and update HTML tree  */}
             <span>Id: {item.id}</span>
             <span>Name : {item.name}</span>
             <span>User Type: {item.user_type}</span>

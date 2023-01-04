@@ -1,5 +1,5 @@
 import React from 'react';
-import HigherOrderFunctions from './components/hof/HigherOrderFunctions';
+import HigherOrderComponent from './components/HigherOrderComponent'
 import './App.css';
 
 function App() {
